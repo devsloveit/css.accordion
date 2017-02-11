@@ -1,0 +1,33 @@
+@import "settings";
+
+// Wrapper
+.#{$devs-love-it} {
+	position: relative;
+	input[type="radio"],
+	input[type="checkbox"] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 0;
+		width: 0;
+		opacity: 0;
+		&:checked {
+			+ .#{$devs-love-it}-item {
+				.#{$devs-love-it}-title {
+					// todo: active style
+				}
+				.#{$devs-love-it}-content {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.#{$devs-love-it}-title {
+	display: block;
+}
+
+.#{$devs-love-it}-content {
+	display: none;
+}

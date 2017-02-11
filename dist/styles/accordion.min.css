@@ -1,0 +1,1 @@
+.d-accordion{position:relative}.d-accordion input[type=radio],.d-accordion input[type=checkbox]{position:absolute;top:0;right:0;height:0;width:0;opacity:0}.d-accordion input[type=radio]:checked+.d-accordion-item .d-accordion-content,.d-accordion input[type=checkbox]:checked+.d-accordion-item .d-accordion-content,.d-accordion-title{display:block}.d-accordion-content{display:none}
